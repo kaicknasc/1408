@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;    ;
+}
+/* Resetando a pagina... */
+
+html, body {
+    scroll-behavior: smooth;
+}
+/* Adicionando navegação da pagina suave */
+
+body {
+    background-color: #001837;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.993);
+}
+/* Alinhando itens ao cabeçalho... */
+
+header img {
+    width: 80px;
+}
+/* Tamanho da imagem... */
+
+header ul {
+    display: flex;
+}
+/* Alinhando lista horizontalmente... */
+
+header ul li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+/* Criando margem e tirando bolinha das listas... */
+
+header a {
+    text-decoration: none;
+    color: #00adf2;
+    transition: 00.35s ease;
+}
+/* Tirando linha de underline dos links e mudando de cor... */
+
+header a:hover {
+    color: mediumslateblue;
+}
+
+
+.background-text {
+    background-image: url(Imagens/background.jpg);
+    width: auto;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+/* Tamanho do background... */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Alinhando os itens ao centro da pagina... */
+
+.texts {
+    color: white;
+    border: 2px solid white;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    backdrop-filter: blur(9px);
+    box-shadow: 0 0 10px black;
+}
+/* Arrumando div centralizando objetos e adicionando filtros de desfoque ao fundo... */
+
+.texts h2 {
+    padding: 20px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+/* Adicionando espaçamento e tamanho da fonte... */
+
+.texts p {
+    color: yellow;
+    font-size: 19px;
+    padding: 15px;
+}
+/* Alterando cor da fonte e tamanho e espaçamento da fonte... */
+
+.container-main {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container-main img {
+    width: 125px;
+    margin-left: 100px;
+}
+
+.text-main {
+    width: 400px;
+}
+
+.text-main h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.text-main p {
+    font-size: 18px;
+}
+
+.background-text2 {
+    background-image: url(Imagens/Logica.jpg);
+    width: auto;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+/* Tamanho do background... */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts2 {
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.822);
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 450px;
+    box-shadow: 0 0 20px black;
+}
+
+.texts2 h2 {
+    font-size: 32px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.texts2 p {
+    font-size: 19px;
+    color: yellow;
+}
