@@ -100,25 +100,30 @@ header a:hover {
     align-items: center;
     color: white;
 }
+/* Criando espaçamento, alinhando itens e alterando cor da fonte... */
 
 .container-main img {
     width: 125px;
     margin-left: 100px;
 }
+/* Alterando tamanho da imagem na largura e criando espaçamento na esquerda... */
 
 .text-main {
     width: 400px;
 }
+/* Criando tamanho de largura da caixa... */
 
 .text-main h2 {
     font-size: 30px;
     margin-top: 5px;
     margin-bottom: 25px;
 }
+/* Alterando Tamanho da fonte e espaçamento do titulo... */
 
 .text-main p {
     font-size: 18px;
 }
+/* Alterando tamanho da fonte... */
 
 .background-text2 {
     background-image: url(Imagens/Logica.jpg);
@@ -132,6 +137,7 @@ header a:hover {
     justify-content: center;
     align-items: center;
 }
+/* Alinhando itens ao centro da div (Divisão da pagina)... */
 
 .texts2 {
     border-radius: 15px;
@@ -143,14 +149,31 @@ header a:hover {
     height: 450px;
     box-shadow: 0 0 20px black;
 }
+/* Criando caixa para amarzenar as informações e deixando fundo transparente com desfoque de fundo... */
 
 .texts2 h2 {
     font-size: 32px;
     padding: 20px;
     margin-bottom: 10px;
 }
+/* Alterando espaçamento entre o titulo e o paragráfo... */
 
 .texts2 p {
     font-size: 19px;
     color: yellow;
 }
+/* Alterando cor do paragráfo e seu tamanho de fonte... */
+
+.final-container {
+    background-color: #00adf2;
+    color: #001837;
+    font-weight: 700;
+    padding: 15px;
+}
+/* Criando footer (Rodapé) da pagina... */
+
+
+.final-container p {
+    text-align: center;
+}
+/* Centralizando texto ao meio da pagina... */
