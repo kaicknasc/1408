@@ -165,7 +165,7 @@ header a:hover {
 /* Alterando cor do paragráfo e seu tamanho de fonte... */
 
 .final-container {
-    background-color: #00adf2;
+    background-color: #140f07;
     color: #001837;
     font-weight: 700;
     padding: 15px;
@@ -173,7 +173,25 @@ header a:hover {
 /* Criando footer (Rodapé) da pagina... */
 
 
-.final-container p {
-    text-align: center;
+.final-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Centralizando texto ao meio da pagina... */
+
+.final-container a {
+    font-weight: 200;
+    font-size: 25px;
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    transition: 00.50s ease;
+}
+
+
+
+.final-container a:hover {
+    color: mediumslateblue;
+}
