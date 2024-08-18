@@ -16,12 +16,15 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
     background-color: rgb(243, 243, 243);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.993);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.342);
 }
 /* Alinhando itens ao cabeçalho... */
 
