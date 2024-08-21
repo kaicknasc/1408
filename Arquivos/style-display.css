@@ -43,6 +43,7 @@ html, body{
 }
 
 .box01 img{
+    margin: 15px;
     width: 100px;
 }
 
@@ -52,6 +53,7 @@ html, body{
 }
 
 .box02 img{
+    margin: 15px;
     padding: 0 10px;
     border-radius: 3px;
     background-color: dodgerblue;
@@ -59,6 +61,19 @@ html, body{
 }
 
 .box02{
+    text-align: center;
+    color: white;
+}
+
+.box03 img{
+    margin: 15px;
+    padding: 0 10px;
+    border-radius: 3px;
+    background-color: rgb(255, 221, 0);
+    width: 93px;
+}
+
+.box03{
     text-align: center;
     color: white;
 }
