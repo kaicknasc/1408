@@ -193,6 +193,36 @@ header a:hover {
     transition: 00.50s ease;
 }
 
+.learn-more {
+    background-image: url(Imagens/learnmore.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.learnmore-btn button {
+    border: none;
+    border: 2px solid #390277;
+    color: #a8007c;
+    border-radius: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    padding: 6px 20px;
+    transition: 00.60s ease;
+    cursor: pointer;
+}
+
+.learnmore-btn button:hover {
+    color: aliceblue;
+    background-color: #a8007c;
+    transform: scale(1.1);
+}
+
 
 
 .final-container a:hover {
