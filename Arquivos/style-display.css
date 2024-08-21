@@ -12,7 +12,8 @@ html, body{
 }
 
 .box-container{
-    padding: 180px;
+    width: 0 auto;
+    height: 330px ;
     background: linear-gradient(90deg, #300060 9%, #9b006c 80%);
     display: flex;
     align-items: center;
@@ -76,4 +77,27 @@ html, body{
 .box03{
     text-align: center;
     color: white;
+}
+
+.box-002{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-002 div{
+    background-color: #300060;
+    border: 2px solid rgb(83, 57, 255);
+    border-radius: 20px;
+    transition: 00.90s ease;
+    width: 180px;
+    height: 250px;
+    margin: 30px;
+}
+
+.box-002 div:hover{
+    height: 270px;
+    width: 220px;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgb(83, 0, 250);
 }
