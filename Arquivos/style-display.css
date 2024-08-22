@@ -14,7 +14,7 @@ html, body{
 .box-container{
     width: 0 auto;
     height: 330px ;
-    background: linear-gradient(90deg, #300060 9%, #9b006c 80%);
+    background: linear-gradient(90deg, #300060 9%, #d00091 100%);
     display: flex;
     align-items: center;
     justify-content: center;
