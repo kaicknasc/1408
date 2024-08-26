@@ -228,3 +228,22 @@ header a:hover {
 .final-container a:hover {
     color: mediumslateblue;
 }
+
+.social_media {
+    background-color: #140f07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social_media i {
+    color: #00adf2;
+    font-size: 40px;
+    transition: 00.80s ease;
+}
+
+.social_media i:hover {
+    color: #a8007c;
+    transform: scale(1.2);
+}
